@@ -27,7 +27,7 @@ void setup() {
 void loop() {
   
   if (presenceDetected()){
-    message = "Um filho da puta entrou na sala: ";
+    message = "Um pessoa linda entrou na sala: ";
     digitalWrite(led,HIGH);
   } else {
      message = "Sala vazia:";
